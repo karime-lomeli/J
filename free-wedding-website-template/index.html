@@ -13,7 +13,8 @@
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;600&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;600&display=swap"
+        rel="stylesheet">
 
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -29,9 +30,13 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="51">
     <!-- Navbar Start -->
     <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-lg-5">
-        <a href="index.html" class="navbar-brand d-block d-lg-none">
-            <h1 class="font-secondary text-white mb-n2">Vianey <span class="text-primary">&</span>Orlando</h1>
-        </a>
+        <div>
+            <a href="index.html" class="navbar-brand d-block d-lg-none">
+                <h1 class="font-secondary text-white mb-n2">Viannnney <span class="text-primary">&</span>Orlando</h1>
+            </a>
+        </div>
+
+
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -42,13 +47,18 @@
                 <!--<a href="#story" class="nav-item nav-link">Story</a>-->
                 <a href="#gallery" class="nav-item nav-link">Galería</a>
             </div>
-            <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block">
-                <h1 class="font-secondary text-white mb-n2">Vianey<span class="text-primary"> & </span>Orlando</h1>
-            </a>
+
+            <div class="subir">
+                <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block">
+                    <h1 class="font-secondary text-white mb-n2">Vianey<span class="text-primary"> & </span>Orlando</h1>
+                </a>
+            </div>
+
+
             <div class="navbar-nav mr-auto py-0">
                 <a href="#family" class="nav-item nav-link">Regalos</a>
                 <a href="#event" class="nav-item nav-link">Itinerario</a>
-                
+
             </div>
         </div>
     </nav>
@@ -65,11 +75,13 @@
                         <div class="p-3" style="max-width: 900px;">
                             <h1 class="display-1 font-secondary text-white mt-n3 mb-md-4">Vianey & Orlando</h1>
                             <div class="d-inline-block border-top border-bottom border-light py-3 px-4">
-                                <h3 class="text-uppercase font-weight-normal text-white m-0" style="letter-spacing: 2px;">Nos casamos.</h3>
+                                <h3 class="text-uppercase font-weight-normal text-white m-0"
+                                    style="letter-spacing: 2px;">Nos casamos.</h3>
                             </div>
-                            
+
                             <button type="button" class="btn-play mx-auto" data-toggle="modal"
-                                data-src="https://www.youtube.com/embed/86Alm6xjJaU?si=ETF-jk7NKkX474qu" data-target="#videoModal">
+                                data-src="https://www.youtube.com/embed/86Alm6xjJaU?si=ETF-jk7NKkX474qu"
+                                data-target="#videoModal">
                                 <span></span>
                             </button>
                         </div>
@@ -79,11 +91,17 @@
                     <img class="position-absolute w-100 h-100" src="img/8.png" style="object-fit: cover;">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
-                            <h1 class="display-1 font-secondary text-white mt-n3 mb-md-4">Vianey & Orlando</h1>
-                            <div class="d-inline-block border-top border-bottom border-light py-3 px-4">
-                                <h3 class="text-uppercase font-weight-normal text-white m-0" style="letter-spacing: 2px;">Nos casamos.</h3>
+
+                            <div class="arriba">
+                                <h1 class="display-1 font-secondary text-white mt-n3 mb-md-4 ">Vianey & Orlando
+                                </h1>
+
                             </div>
-                            <button type="button" class="btn-play mx-auto" data-toggle="modal"
+                            <div class="d-inline-block border-top border-bottom border-light py-3 px-4 bajo2">
+                                <h3 class="text-uppercase font-weight-normal text-white m-0"
+                                    style="letter-spacing: 2px;">Nos casamos.</h3>
+                            </div>
+                            <button type="button" class="btn-play mx-auto bajo" data-toggle="modal"
                                 data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
                                 <span></span>
                             </button>
@@ -105,43 +123,47 @@
     </div>
     <!-- Carousel End -->
 
-<div id="about" class="section-title position-relative text-center">
-    <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Save the date.</h6>
-    <h1 class="font-secondary display-4">20 Enero 2024</h1>
-    <div class="fecha">
-        <div class="countdown">
-            <div>
-                <p class="b" id="days">00</p>
-                <span>Días</span>
-            </div>
-            <div>
-                <p class="b" id="hours">00</p>
-                <span>Horas</span>
-            </div>
-            <div>
-                <p class="b" id="minutes">00</p>
-                <span>Minutos</span>
-            </div>
-            <div>
-                <p class="b" id="seconds">00</p>
-                <span>Segundos</span>
+    <div id="about" class="section-title position-relative text-center">
+        <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Save the date.</h6>
+        <h1 class="font-secondary display-4">20 Enero 2024</h1>
+        <div class="fecha">
+            <div class="countdown">
+                <div>
+                    <p class="b" id="days">00</p>
+                    <span>Días</span>
+                </div>
+                <div>
+                    <p class="b" id="hours">00</p>
+                    <span>Horas</span>
+                </div>
+                <div>
+                    <p class="b" id="minutes">00</p>
+                    <span>Minutos</span>
+                </div>
+                <div>
+                    <p class="b" id="seconds">00</p>
+                    <span>Segundos</span>
+                </div>
             </div>
         </div>
+        <div class="final-mss">
+            <h2>Se llegó el día!!</h2>
+        </div>
+        <i class="far fa-heart text-dark"></i>
     </div>
-    <div class="final-mss"><h2>Se llegó el día!!</h2></div>
-    <i class="far fa-heart text-dark"></i>
-</div>
     <!-- Video Modal Start -->
-    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-body">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
-                    </button>        
+                    </button>
                     <!-- 16:9 aspect ratio -->
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                        <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always"
+                            allow="autoplay"></iframe>
                     </div>
                 </div>
             </div>
@@ -149,7 +171,7 @@
     </div>
     <!-- Video Modal End -->
     <!-- About Start -->
-    <div class="container-fluid py-5" >
+    <div class="container-fluid py-5">
         <div class="container py-5">
             <div class="section-title position-relative text-center">
                 <h1 class="font-secondary display-4">Más valen dos que uno,
@@ -164,10 +186,10 @@
                     pero dos pueden resistir.
                     ¡La cuerda de tres hilos
                     no se rompe fácilmente!</h1>
-                    <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Eclesiastés 4:9-12</h6>
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Eclesiastés 4:9-12</h6>
                 <i class="far fa-heart text-dark"></i>
             </div>
-          <!--  <div class="row m-0 mb-4 mb-md-0 pb-2 pb-md-0">
+            <!--  <div class="row m-0 mb-4 mb-md-0 pb-2 pb-md-0">
                 <div class="col-md-6 p-0 text-center text-md-right">
                     <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-5">
                         <h3 class="mb-3">The Groom</h3>
@@ -332,13 +354,17 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-6 text-center">
-                    <h5 class="font-weight-normal text-muted mb-3 pb-3">Nos dará mucha emoción verte en cada uno de estos momentos.</h5>
+                    <h5 class="font-weight-normal text-muted mb-3 pb-3">Nos dará mucha emoción verte en cada uno de
+                        estos momentos.</h5>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6 border-right border-primary">
                     <div class="text-center text-md-right mr-md-3 mb-4 mb-md-0">
-                        <iframe class="img-fluid w-60" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3694.708748228965!2d-102.34350142471106!3d22.175155979776786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8682098b864d22cf%3A0x55d55376b30a6fd1!2sParroquia%20de%20Nuestro%20Se%C3%B1or%20San%20Blas!5e0!3m2!1ses-419!2smx!4v1698182591022!5m2!1ses-419!2smx"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe class="img-fluid w-60"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3694.708748228965!2d-102.34350142471106!3d22.175155979776786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8682098b864d22cf%3A0x55d55376b30a6fd1!2sParroquia%20de%20Nuestro%20Se%C3%B1or%20San%20Blas!5e0!3m2!1ses-419!2smx!4v1698182591022!5m2!1ses-419!2smx"
+                            style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                         <h4 class="mb-3">Ceremonía Religiosa</h4>
                         <p class="mb-2">Parroquia San Blas, Pabellón de Hidalgo</p>
                         <p class="mb-0">3:00 PM</p>
@@ -346,18 +372,22 @@
                 </div>
                 <div class="col-md-6">
                     <div class="text-center text-md-left ml-md-3">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3695.473469464943!2d-102.29931292591837!3d22.14604234847136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8429e28133d69cb1%3A0xb493c0b74153563f!2sSal%C3%B3n%20de%20Eventos%20Quinta%20Palma%20Roja!5e0!3m2!1ses-419!2smx!4v1698183301629!5m2!1ses-419!2smx"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3695.473469464943!2d-102.29931292591837!3d22.14604234847136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8429e28133d69cb1%3A0xb493c0b74153563f!2sSal%C3%B3n%20de%20Eventos%20Quinta%20Palma%20Roja!5e0!3m2!1ses-419!2smx!4v1698183301629!5m2!1ses-419!2smx"
+                            style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                         <h4 class="mb-3">Recepción</h4>
-                        <p class="mb-2">Salón Quinta Palma Roja, Carretera a San Jose de Gracia Km. 1, Pabellón de Arteaga, Ags.</p>
+                        <p class="mb-2">Salón Quinta Palma Roja, Carretera a San Jose de Gracia Km. 1, Pabellón de
+                            Arteaga, Ags.</p>
                         <p class="mb-0">5:00 PM</p>
-                        
+
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6 border-right border-primary">
                     <span>
-                        <h6>                                   
+                        <h6>
                         </h6>
                     </span>
                 </div>
@@ -379,7 +409,7 @@
             <div class="row">
                 <div class="col-md-6 border-right border-primary">
                     <span>
-                        <h6>                                   
+                        <h6>
                         </h6>
                     </span>
                 </div>
@@ -402,7 +432,7 @@
     </div>
     <!-- Event End -->
 
-   
+
     <!-- Friends & Family Start -->
     <div class="container-fluid py-5" id="family">
         <div class="container pt-5 pb-3">
@@ -416,18 +446,23 @@
                     <p>El regalo es opcional, pero si quieres regalarnos algo, te dejamos algunas opciones.</p>
                     <p>MUCHAS GRACIAS.</p>
                     <ul class="list-inline mb-4" id="portfolio-flters">
-                        <button  style="border: 0cap; border-color: white;" ><a href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51324162?_ga=2.123471372.682338801.1698699214-1276343813.1698699214" target="_blank"><img width="200px" height="200px" src="img/logo.jpg" alt="Liverpool"></a></button>
-                        <button  style="border: 0cap; border-color: white;" ><a href="https://www.amazon.com.mx/wedding/share/VianeyYOrlando" target="_blank"><img width="200px" height="200px" src="img/ama.png" alt="Amazon"></a></button>
+                        <button style="border: 0cap; border-color: white;"><a
+                                href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51324162?_ga=2.123471372.682338801.1698699214-1276343813.1698699214"
+                                target="_blank"><img width="200px" height="200px" src="img/logo.jpg"
+                                    alt="Liverpool"></a></button>
+                        <button style="border: 0cap; border-color: white;"><a
+                                href="https://www.amazon.com.mx/wedding/share/VianeyYOrlando" target="_blank"><img
+                                    width="200px" height="200px" src="img/ama.png" alt="Amazon"></a></button>
                     </ul>
                 </div>
             </div>
-            
+
         </div>
     </div>
     <!-- Friends & Family End -->
 
 
-    
+
 
 
     <!-- Footer Start -->
@@ -437,10 +472,11 @@
                 <h1 class="font-secondary display-3 text-white">Nos vemos en la pista.</h1>
                 <i class="far fa-heart text-white"></i>
             </div>
-            
+
             <div class="d-flex justify-content-center py-2">
             </div>
-            <p class="m-0">&copy; <a class="text-primary">Domain Name</a>. Designed by <a class="text-primary" >Karime Lomelí</a>
+            <p class="m-0">&copy; <a class="text-primary">Domain Name</a>. Designed by <a class="text-primary">Karime
+                    Lomelí</a>
             </p>
         </div>
     </div>
@@ -451,7 +487,8 @@
     <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-outline-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+    <a href="#" class="btn btn-lg btn-outline-primary btn-lg-square back-to-top"><i
+            class="fa fa-angle-double-up"></i></a>
 
 
     <!-- JavaScript Libraries -->
